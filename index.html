@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <table>
+          <tbody>
+            <h1>Registration form</h1>
+            <tr>
+              <td><label for="name">Name: </label></td>
+              <td>
+                <input
+                  id="name"
+                  placeholder="enter name..."
+                  maxlength="50"
+                  minlength="4"
+                  name="name"
+                  type="text"
+                
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email_Address:</label></td>
+              <td>
+                <input
+                  id="email"
+                  placeholder=" enter email"
+                  maxlength="50"
+                  name="email"
+                  
+                  type="text"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="course">Course: </label></td>
+              <td>
+                <input
+                  id="course"
+                  placeholder=" enter course name"
+                  maxlength="50"
+                  name="course"
+                  type="text"
+                  required
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="username">User_Name:</label></td>
+              <td>
+                <input
+                  id="username"
+                  placeholder="enter username"
+                  maxlength="50"
+                  name="username"
+                  type="text"
+                  required
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="password">Password:</label></td>
+              <td>
+                <input
+                  id="password"
+                  placeholder="enter password"
+                  maxlength="50"
+                  name="password"
+                  type="password"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="password"> Repeat Password:</label></td>
+              <td>
+                <input
+                  id="repeatPassword"
+                  placeholder="Repeat password"
+                  maxlength="50"
+                  name="repeatPassword"
+                  type="password"
+                  required
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td align="right">
+                <input name="Submit" type="Submit" id="submitbtn" value="register" /> 
+              
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

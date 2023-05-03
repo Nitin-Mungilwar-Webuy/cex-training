@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+table {
+  margin-top: 100px;
+  align-items: center;
+  border: 0;
+}
+.container {
+  display: flex;
+  background-color: aliceblue;
+  width: 430px;
+  height: 450px;
+  margin: 100px;
+}
+label {
+  padding: 5px;
+}
+input {
+  padding: 5px;
+}
+button {
+  padding: 10px;
+  align-items: right;
+}
+td,
+tr {
+  margin: 20px;
+}
+h1 {
+  justify-content: center;
+  display: flex;
+  margin-left: 100px;
+}
